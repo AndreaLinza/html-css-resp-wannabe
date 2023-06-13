@@ -160,27 +160,24 @@ Resolution 480px
 @media screen and (max-width: 480px){
 .row{
     flex-direction: column;
+    row-gap: 4rem;
     align-items: center;   
 }
 h2{
     width: 70%;
     margin: 2rem auto;
 }
-.lessons .col:last-child, 
+/* .lessons .col:last-child, 
 .steps .col:nth-child(2),
 .steps .col:nth-child(3),
 .why-us .col-right{
     margin-top: 4rem;
-}
-.lessons .col, .why-us .col-right{
-    width: 77%;
-}
-.steps .col {
-    width: calc(225% / 3);
-}
-
-.why-us .col-left {
-    width: 70%;
+} */
+.lessons .col, 
+.why-us .col-right, 
+.why-us .col-left,
+.steps .col{
+    width: 100%;
 }
 
 }
